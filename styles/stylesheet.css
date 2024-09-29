@@ -1,0 +1,133 @@
+.login-box{
+    background-color: transparent;
+    border-radius: 40px;
+    width: 600px !important;
+    height: 400px;
+    margin-left: 0px;
+    margin-top: 90px;
+    margin-right: 80px;
+    /* border: 5px dashed rgb(0, 0, 0); */
+    z-index: 1;
+}
+.login-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: rgb(72, 72, 72);
+}
+.username-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.username{
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid rgb(150, 150, 150);
+}
+.password-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;  
+}
+.password{
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid rgb(150, 150, 150);
+}
+.link-to-sign-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.sign-up{
+    color: rgb(49, 49, 49);
+    padding-left: 5px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.sign-up:hover{
+    cursor: pointer;
+    color: rgb(113, 113, 113);
+    text-decoration: underline;
+}
+.athlete-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* align-items: start; */
+    height: 675px;
+    z-index: 2;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+}
+.background{
+    position: absolute;
+    height: 100%;
+    left: 0px;
+}
+.background-pic{
+    height: 100%;
+    width: 0%;
+    opacity: 80%;
+    z-index: 0;
+}
+.name-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.firstname, .lastname {
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid rgb(150, 150, 150);
+}
+.create-button-box{
+    margin-top:28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.create-button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color, 0.15s;
+}
+.create-button:hover{
+    background-color: white;
+    color: black;
+}

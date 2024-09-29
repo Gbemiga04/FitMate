@@ -1,0 +1,377 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    width: 23%;
+    background-color: white;
+    border-right: 1px solid rgb(224, 224, 224);
+    z-index: 10000;
+    overflow: auto;
+    padding-top: 70px; 
+}
+.home-page{
+    background-color: white;
+    height: 100%;
+}
+.header-container{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.home-section{
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.discover-section{
+    z-index: 2;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+}
+body{
+    margin-left: 23%;
+}
+.profile-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.profile-placeholder{
+    background-color: white;
+    width: 450px;
+    height: 130px;
+    border-radius: 50px;
+    padding: 10px 0px 0px 4px;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    border: 0px solid gray;
+    position: relative;
+}
+.profile-pic-container{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.info-container{
+    background-color: white;
+    height: 90%;
+    width: 93%;
+}
+.name-and-distance-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+    height: 20%;
+}
+.user-name{
+    background-color: white;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+.user-distance{
+    background-color: white;
+    width: 30%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    font-size: 15px;
+
+}
+.description{
+    height: 30%;
+    width: 93%;
+    margin: 10px 10px 0 10px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.sports-list{
+    background-color: transparent;
+    height: 100%;
+    margin: 0px 10px 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0px;
+    z-index: 100000;
+}
+.profile-pic{
+    height: 120px;
+    width: 120px;
+    border-radius: 10000px;
+}
+.sports-item{
+    background-color: white;
+    height: 18px;
+    padding: 6px 20px 10px 20px;
+    border-radius: 150px;
+    border: 2px solid gray;
+    margin-right: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.sidebar-icons-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+.sidebar-icons-panel:hover{
+    cursor: pointer;
+}
+.sidebar-icons-panel:hover .sidebar-buttons{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-icons-panel:hover .sidebar-button{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-icons-panel:active .sidebar-button{
+    cursor: pointer;
+    background-color: rgb(143, 143, 143);
+}
+.sidebar-icons img{
+    width: 25px;
+
+}
+.sidebar-icons{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.sidebar-texts{
+    padding-left: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+.sidebar-text{
+    padding-left: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+.sidebar-buttons{
+    border: 0px;
+    flex-direction: row;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+    padding: 10px 25px 10px 13px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.15s;
+
+}
+.sidebar-buttons:hover{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-buttons:active{
+    background-color: rgb(139, 139, 139);
+}
+.sidebar-button{
+    border: 0px;
+    flex-direction: row;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.15s;
+}
+.sidebar-button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+
+}
+
+button.tweet-1 {
+    background-color: rgb(78, 158, 255);
+    color: white;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 90px;
+    padding-left: 90px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    transition: box-shadow 0.15s, margin-left, 0.15s, margin-top, 0.15s,
+      box-shadow 0.15s;
+}
+button.tweet-1:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+button.tweet-1:active {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.sidebar-icons-panels{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 30px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.sidebar-icons-panels:hover{
+    cursor: pointer;
+}
+.sidebar-icons-panels:hover .sidebar-buttons{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-icons-panels:hover .sidebar-button{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-icons-panels:active .sidebar-buttons{
+    background-color: rgb(168, 168, 168);
+}
+.profile-pic-container-sidebar img{
+    border-radius: 50%;
+    width: 100%;
+    width: 40px;
+}
+.sidebar-account{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: red;
+}
+.username{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.tag{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(129, 129, 129);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.extra-menu img{
+    z-index: 100;
+    width: 15px;
+    height: 15px;
+
+}
+.extra-menu{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.sidebar-icons-panelss{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+}
+.sidebar-icons-panelss:hover{
+    cursor: pointer;
+}
+.sidebar-icons-panelss:hover .sidebar-buttons{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.sidebar-icons-panelss:active .sidebar-buttons{
+    background-color: rgb(168, 168, 168);
+}
+.sidebar-icons-panelss:hover .sidebar-button{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.profile-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: white;
+    transition: background-color 0.15s;
+}
+.profile-button:hover{
+background-color: rgb(231, 231, 231);
+}
+.profile-button:active{
+    background-color: rgb(184, 184, 184);
+}
+
+.names-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 10px;
+}
+.button-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.bar{
+    width: 90px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    border-radius: 10px;
+}

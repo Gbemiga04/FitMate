@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/@googlemaps/extended-component-library@0.6"
+    ></script>
+    <link rel="stylesheet" href="styles/interests_stylesheet.css" />
+    <title>Sports Interests</title>
+  </head>
+  <body>
+    <gmpx-api-loader
+      key="AIzaSyCkTSWKyAl8DnY8e6yuQb3YeyKZve1rqm0"
+      solution-channel="GMP_GE_placepicker_v1"
+    >
+    </gmpx-api-loader>
+    <div class="page-2">
+      <div class="sports-interests-header">
+        What sports are you
+        <div>most interested in?</div>
+      </div>
+      <div class="sports-container">
+        <div>
+          <button class="sports-class">Skating</button>
+          <button class="sports-class">Running</button>
+          <button class="sports-class">Tennis</button>
+          <button class="sports-class">Basketball</button>
+          <button class="sports-class">Swimming</button>
+          <button class="sports-class">Gym</button>
+          <button class="sports-class">Cycling</button>
+          <button class="sports-class">Volleyball</button>
+          <button class="sports-class">Soccer</button>
+          <button class="sports-class">Boxing</button>
+          <button class="sports-class">Yoga</button>
+          <button class="sports-class">Golf</button>
+          <button class="sports-class">Badminton</button>
+          <button class="sports-class">Cricket</button>
+          <button class="sports-class">Surfing</button>
+          <button class="sports-class">Skiing</button>
+          <button class="sports-class">Baseball</button>
+          <button class="sports-class">Martial Arts</button>
+        </div>
+      </div>
+      <div class="city">What city do you stay in?</div>
+      <div class="search">
+        <gmpx-place-picker
+          placeholder="Enter an address i.e. 1000 17th Avenue North"
+          class="pac-target-input"
+        ></gmpx-place-picker>
+      </div>
+      <div class="next-button-container">
+        <button class="next-button">Next</button>
+      </div>
+    </div>
+    <script src="scripts/functions.js" type="module"></script>
+    <script type="module">
+      import { addLocation } from "./scripts/functions.js";
+      // Attach the event listener for the Next button
+      const nextButton = document.querySelector(".next-button");
+      nextButton.addEventListener("click", addLocation);
+    </script>
+  </body>
+</html>
