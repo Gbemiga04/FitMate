@@ -19,7 +19,7 @@ export const users = [
     },
     {
       id: "3",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Usain Bolt",
       distance: "",
       description: "Fastest Man on Earth!",
@@ -28,7 +28,7 @@ export const users = [
     },
     {
       id: "4",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Roger Federer",
       distance: "",
       description: "20x Grand Slam Champion!",
@@ -37,7 +37,7 @@ export const users = [
     },
     {
       id: "5",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Cristiano Ronaldo",
       distance: "",
       description: "5x Ballon d'Or Winner!",
@@ -46,7 +46,7 @@ export const users = [
     },
     {
       id: "6",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Simone Biles",
       distance: "",
       description: "Most Decorated Gymnast!",
@@ -55,7 +55,7 @@ export const users = [
     },
     {
       id: "7",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Michael Phelps",
       distance: "",
       description: "Most Olympic Golds!",
@@ -64,7 +64,7 @@ export const users = [
     },
     {
       id: "8",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Naomi Osaka",
       distance: "",
       description: "4x Grand Slam Champion!",
@@ -73,7 +73,7 @@ export const users = [
     },
     {
       id: "9",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Tom Brady",
       distance: "",
       description: "7x Super Bowl Champion!",
@@ -82,7 +82,7 @@ export const users = [
     },
     {
       id: "10",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Lionel Messi",
       distance: "",
       description: "7x Ballon d'Or Winner!",
@@ -91,7 +91,7 @@ export const users = [
     },
     {
       id: "11",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Ronda Rousey",
       distance: "",
       description: "Former UFC Champion!",
@@ -109,7 +109,7 @@ export const users = [
     },
     {
       id: "13",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Shaun White",
       distance: "",
       description: "Snowboarding Legend!",
@@ -118,7 +118,7 @@ export const users = [
     },
     {
       id: "14",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Venus Williams",
       distance: "",
       description: "7x Grand Slam Champion!",
@@ -127,7 +127,7 @@ export const users = [
     },
     {
       id: "15",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Novak Djokovic",
       distance: "",
       description: "24x Grand Slam Champion!",
@@ -136,7 +136,7 @@ export const users = [
     },
     {
       id: "16",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Conor McGregor",
       distance: "",
       description: "Former UFC Champion!",
@@ -145,7 +145,7 @@ export const users = [
     },
     {
       id: "17",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Aly Raisman",
       distance: "",
       description: "Olympic Gold Medalist!",
@@ -154,155 +154,173 @@ export const users = [
     },
     {
       id: "18",
-      image: "profile_pics/serena_williams.jfif",
+      image: "profile_pics/blank-profile-picture-png.webp",
       name: "Russell Wilson",
       distance: "",
       description: "Super Bowl Champion!",
       sports: ["Football"],
-      location: { lat: 40.7128, lng: -74.0060 }}]
-//     },
-//     {
-//       id: "19",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Kylian Mbappe",
-//       distance: "",
-//       description: "World Cup Winner!",
-//       sports: ["Soccer"]
-//     },
-//     {
-//       id: "20",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Danica Patrick",
-//       distance: "",
-//       description: "Racing Pioneer!",
-//       sports: ["Racing"]
-//     },
-//     {
-//       id: "21",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "David Beckham",
-//       distance: "",
-//       description: "Soccer Icon!",
-//       sports: ["Soccer"]
-//     },
-//     {
-//       id: "22",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Maria Sharapova",
-//       distance: "",
-//       description: "5x Grand Slam Champion!",
-//       sports: ["Tennis"]
-//     },
-//     {
-//       id: "23",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Andy Murray",
-//       distance: "",
-//       description: "2x Grand Slam Champion!",
-//       sports: ["Tennis"]
-//     },
-//     {
-//       id: "24",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Sergio Garcia",
-//       distance: "",
-//       description: "Golf Masters Champion!",
-//       sports: ["Golf"]
-//     },
-//     {
-//       id: "25",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Lindsey Vonn",
-//       distance: "",
-//       description: "Skiing Legend!",
-//       sports: ["Skiing"]
-//     },
-//     {
-//       id: "26",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Sidney Crosby",
-//       distance: "",
-//       description: "3x Stanley Cup Winner!",
-//       sports: ["Hockey"]
-//     },
-//     {
-//       id: "27",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Alex Morgan",
-//       distance: "",
-//       description: "Soccer World Champion!",
-//       sports: ["Soccer"]
-//     },
-//     {
-//       id: "28",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Wayne Gretzky",
-//       distance: "",
-//       description: "Hockey GOAT!",
-//       sports: ["Hockey"]
-//     },
-//     {
-//       id: "29",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Paul Pogba",
-//       distance: "",
-//       description: "World Cup Champion!",
-//       sports: ["Soccer"]
-//     },
-//     {
-//       id: "30",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Michael Jordan",
-//       distance: "",
-//       description: "6x NBA Champion!",
-//       sports: ["Basketball"]
-//     },
-//     {
-//       id: "31",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Peyton Manning",
-//       distance: "",
-//       description: "2x Super Bowl Champion!",
-//       sports: ["Football"]
-//     },
-//     {
-//       id: "32",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Manny Pacquiao",
-//       distance: "",
-//       description: "Boxing Legend!",
-//       sports: ["Boxing"]
-//     },
-//     {
-//       id: "33",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Jordan Spieth",
-//       distance: "",
-//       description: "Golf Masters Winner!",
-//       sports: ["Golf"]
-//     },
-//     {
-//       id: "34",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Jimmy Butler",
-//       distance: "",
-//       description: "NBA Star!",
-//       sports: ["Basketball"]
-//     },
-//     {
-//       id: "35",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Jamie Whincup",
-//       distance: "",
-//       description: "Supercar Champion!",
-//       sports: ["Racing"]
-//     },
-//     {
-//       id: "36",
-//       image: "profile_pics/serena_williams.jfif",
-//       name: "Sloane Stephens",
-//       distance: "",
-//       description: "US Open Champion!",
-//       sports: ["Tennis"]
-//     }
-//   ]
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "19",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Kylian Mbappe",
+      distance: "",
+      description: "World Cup Winner!",
+      sports: ["Soccer"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "20",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Danica Patrick",
+      distance: "",
+      description: "Racing Pioneer!",
+      sports: ["Racing"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "21",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "David Beckham",
+      distance: "",
+      description: "Soccer Icon!",
+      sports: ["Soccer"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "22",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Maria Sharapova",
+      distance: "",
+      description: "5x Grand Slam Champion!",
+      sports: ["Tennis"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "23",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Andy Murray",
+      distance: "",
+      description: "2x Grand Slam Champion!",
+      sports: ["Tennis"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "24",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Sergio Garcia",
+      distance: "",
+      description: "Golf Masters Champion!",
+      sports: ["Golf"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "25",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Lindsey Vonn",
+      distance: "",
+      description: "Skiing Legend!",
+      sports: ["Skiing"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "26",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Sidney Crosby",
+      distance: "",
+      description: "3x Stanley Cup Winner!",
+      sports: ["Hockey"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "27",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Alex Morgan",
+      distance: "",
+      description: "Soccer World Champion!",
+      sports: ["Soccer"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "28",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Wayne Gretzky",
+      distance: "",
+      description: "Hockey GOAT!",
+      sports: ["Hockey"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "29",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Paul Pogba",
+      distance: "",
+      description: "World Cup Champion!",
+      sports: ["Soccer"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "30",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Michael Jordan",
+      distance: "",
+      description: "6x NBA Champion!",
+      sports: ["Basketball"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "31",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Peyton Manning",
+      distance: "",
+      description: "2x Super Bowl Champion!",
+      sports: ["Football"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "32",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Manny Pacquiao",
+      distance: "",
+      description: "Boxing Legend!",
+      sports: ["Boxing"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "33",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Jordan Spieth",
+      distance: "",
+      description: "Golf Masters Winner!",
+      sports: ["Golf"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "34",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Jimmy Butler",
+      distance: "",
+      description: "NBA Star!",
+      sports: ["Basketball"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "35",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Jamie Whincup",
+      distance: "",
+      description: "Supercar Champion!",
+      sports: ["Racing"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    },
+    {
+      id: "36",
+      image: "profile_pics/blank-profile-picture-png.webp",
+      name: "Sloane Stephens",
+      distance: "",
+      description: "US Open Champion!",
+      sports: ["Tennis"],
+      location: { lat: 40.7128, lng: -74.0060 }
+    }
+  ]

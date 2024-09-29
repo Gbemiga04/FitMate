@@ -6,7 +6,7 @@ function saveLoginDataToLocalStorage() {
     
 export function addLocation(){
         if (document.querySelector('.pac-target-input').value != ""){
-        login_data.location = "Miami, Florida"
+        login_data.location = { lat: 42.7168, lng: -74.0060 }
         console.log(login_data.location)
         saveLoginDataToLocalStorage();
         window.location.pathname = "index.html" 
