@@ -90,3 +90,15 @@ for (const element of users) {
 console.log(login_datas)
 document.querySelector('.profile-section').innerHTML = usersHTML;}
 generateUserProfiles();
+
+
+const discoverSection = document.querySelector('.discover-section');
+const bar = document.querySelector('.bar');
+
+discoverSection.addEventListener('mouseenter', () => {
+    bar.style.width = '0px';
+});
+
+discoverSection.addEventListener('mouseleave', () => {
+    bar.style.width = '100px'; // Original width
+});
