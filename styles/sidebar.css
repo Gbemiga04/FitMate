@@ -410,3 +410,6 @@ background-color: rgb(231, 231, 231);
 .discover-section:hover .bar{
     width: 0px;
 }
+.discover-section:hover{
+    background-color: rgb(236, 236, 236);
+}
